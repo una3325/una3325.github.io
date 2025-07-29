@@ -1,17 +1,13 @@
-import './App.css';
+import { Hero, Profile, Skills, Projects, Footer } from 'components/sections';
 
 function App() {
   return (
-    <div>
-      <section>
-        {/* Home */}
-        <h1>Una's Portfolio</h1>
-        <p>Frontend Developer</p>
-      </section>
-      <section> Profile </section>
-      <section> Skills </section>
-      <section> Projects </section>
-      <section> Footer </section>
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
+      <Hero />
+      <Profile />
+      <Skills />
+      <Projects />
+      <Footer />
     </div>
   );
 }
