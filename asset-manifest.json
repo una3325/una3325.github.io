@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.d04f89b1.css",
-    "main.js": "/static/js/main.96defe07.js",
-    "static/media/grabbme.png": "/static/media/grabbme.c8c8d3963073ab046d0a.png",
-    "static/media/priceTrendAI.png": "/static/media/priceTrendAI.7938b64f3defa2d1dcec.png",
-    "index.html": "/index.html",
-    "main.d04f89b1.css.map": "/static/css/main.d04f89b1.css.map",
-    "main.96defe07.js.map": "/static/js/main.96defe07.js.map"
+    "main.css": "/una3325.github.io/static/css/main.d04f89b1.css",
+    "main.js": "/una3325.github.io/static/js/main.280a2df3.js",
+    "static/media/grabbme.png": "/una3325.github.io/static/media/grabbme.c8c8d3963073ab046d0a.png",
+    "static/media/priceTrendAI.png": "/una3325.github.io/static/media/priceTrendAI.7938b64f3defa2d1dcec.png",
+    "index.html": "/una3325.github.io/index.html",
+    "main.d04f89b1.css.map": "/una3325.github.io/static/css/main.d04f89b1.css.map",
+    "main.280a2df3.js.map": "/una3325.github.io/static/js/main.280a2df3.js.map"
   },
   "entrypoints": [
     "static/css/main.d04f89b1.css",
-    "static/js/main.96defe07.js"
+    "static/js/main.280a2df3.js"
   ]
 }
