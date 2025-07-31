@@ -1,14 +1,16 @@
-// components/ui/Card.tsx
 import { cn } from 'utils/cn';
-import { ReactNode } from 'react';
+import { HTMLAttributes, ReactNode } from 'react';
 
-export function Card({ children, className = '' }: { children: ReactNode; className?: string }) {
+type CardProps = HTMLAttributes<HTMLDivElement>;
+
+export function Card({ children, className = '', ...props }: CardProps) {
   return (
     <div
       className={cn(
         'rounded-lg text-card-foreground shadow-xl border-0 bg-white/80 backdrop-blur-sm transition-all duration-500 overflow-hidden',
         className,
       )}
+      {...props}
     >
       {children}
     </div>
