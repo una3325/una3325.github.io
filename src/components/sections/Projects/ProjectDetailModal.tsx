@@ -1,9 +1,9 @@
 'use client';
 
-import { X } from 'lucide-react';
+import { Github, X } from 'lucide-react';
 import { Badge } from 'components/ui/Badge';
 import Button from 'components/ui/Button';
-import { Project, ProjectsModalProps } from './ProjectType';
+import { ProjectsModalProps } from './ProjectType';
 
 export default function projectsModal({ isOpen, onClose, project }: ProjectsModalProps) {
   if (!isOpen || !project) return null;
@@ -71,6 +71,7 @@ export default function projectsModal({ isOpen, onClose, project }: ProjectsModa
         <div className="flex flex-wrap gap-3">
           {project.github && (
             <Button variant="outline" onClick={() => window.open(project.github, '_blank')}>
+              <Github className="w-3 h-3 mr-1" />
               GitHub
             </Button>
           )}
