@@ -10,7 +10,7 @@ export default function projectsModal({ isOpen, onClose, project }: ProjectsModa
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-      <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto p-6 relative animate-fadeIn">
+      <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto p-6 relative animate-fadeIn scrollbar-thin dark:bg-dark-surface dark:shadow-xl">
         {/* 닫기 버튼 */}
         <button
           onClick={onClose}
