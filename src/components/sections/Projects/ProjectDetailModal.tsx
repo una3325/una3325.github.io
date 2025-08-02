@@ -1,6 +1,6 @@
 'use client';
 
-import { Github, X } from 'lucide-react';
+import { Github, Globe, X } from 'lucide-react';
 import { Badge } from 'components/ui/Badge';
 import Button from 'components/ui/Button';
 import { ProjectsModalProps } from './ProjectType';
@@ -77,12 +77,13 @@ export default function projectsModal({ isOpen, onClose, project }: ProjectsModa
           )}
           {project.notion && (
             <Button variant="outline" onClick={() => window.open(project.notion, '_blank')}>
-              문서
+              <Globe className="w-3 h-3 mr-1" />
+              Docs
             </Button>
           )}
           {project.demo && (
             <Button variant="primary" onClick={() => window.open(project.demo, '_blank')}>
-              데모 보기
+             Demo
             </Button>
           )}
         </div>

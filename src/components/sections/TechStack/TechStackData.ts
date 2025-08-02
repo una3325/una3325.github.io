@@ -2,7 +2,6 @@ import {
   Atom,
   Type,
   Palette,
-  Panda,
   Server,
   KeyRound,
   Code,
@@ -11,6 +10,7 @@ import {
   Slack,
   Figma,
   Notebook,
+  ChartNetwork,
 } from 'lucide-react';
 import type { Category, TechItem } from './TechStackTypes';
 
@@ -19,7 +19,7 @@ export const techStackData: Record<Category, TechItem[]> = {
     { name: 'React', icon: Atom },
     { name: 'TypeScript', icon: Type },
     { name: 'Tailwind CSS', icon: Palette },
-    { name: 'Zustand', icon: Panda },
+    { name: 'Zustand', icon: ChartNetwork },
     { name: 'Next.js', icon: Server },
   ],
   BE: [
