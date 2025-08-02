@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.d9dcee7f.css",
-    "main.js": "/static/js/main.048791d6.js",
+    "main.js": "/static/js/main.848f24d1.js",
     "static/media/grabbme.png": "/static/media/grabbme.c8c8d3963073ab046d0a.png",
     "static/media/priceTrendAI.png": "/static/media/priceTrendAI.7938b64f3defa2d1dcec.png",
     "index.html": "/index.html",
     "main.d9dcee7f.css.map": "/static/css/main.d9dcee7f.css.map",
-    "main.048791d6.js.map": "/static/js/main.048791d6.js.map"
+    "main.848f24d1.js.map": "/static/js/main.848f24d1.js.map"
   },
   "entrypoints": [
     "static/css/main.d9dcee7f.css",
-    "static/js/main.048791d6.js"
+    "static/js/main.848f24d1.js"
   ]
 }
