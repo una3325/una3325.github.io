@@ -43,14 +43,10 @@ export default function Projects() {
                 </CardHeader>
                 <CardContent className="p-4 pt-0">
                   <div className="flex flex-wrap gap-1 mb-3">
-                    {project.tech.map((tech, techIndex) => (
-                      <Badge
-                        key={techIndex}
-                        className="bg-gray-100 hover:bg-gray-200 transition-colors text-xs px-2 py-1"
-                      >
-                        {tech}
-                      </Badge>
+                    {project.tech.slice(0, 5).map((tech, techIndex) => (
+                      <Badge key={techIndex}>{tech}</Badge>
                     ))}
+                    {project.tech.length > 5 && <Badge>+{project.tech.length - 5}</Badge>}
                   </div>
 
                   {/* 링크 버튼들 */}
@@ -77,7 +73,7 @@ export default function Projects() {
                         className="h-8 px-3 text-xs bg-transparent"
                         onClick={(e) => {
                           e.stopPropagation();
-                          window.open(project.github, '_blank');
+                          window.open(project.notion, '_blank');
                         }}
                       >
                         <Globe className="w-3 h-3 mr-1" />
@@ -92,7 +88,7 @@ export default function Projects() {
                         className="h-8 px-3 text-xs bg-transparent"
                         onClick={(e) => {
                           e.stopPropagation();
-                          window.open(project.github, '_blank');
+                          window.open(project.demo, '_blank');
                         }}
                       >
                         <ExternalLink className="w-3 h-3 mr-1" />
